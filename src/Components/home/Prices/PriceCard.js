@@ -1,10 +1,14 @@
+import { motion } from 'framer-motion'
 import { Check } from 'lucide-react'
 import React from 'react'
 
 const PriceCard = ({data}) => {
-    console.log(data.color);
     return (
-        <div className=' flex flex-col gap-4 bg-white py-6  px-9 rounded-lg shadow-lg'>
+        <motion.div 
+        initial={{ translateY:'10%' , scale:0.8 }}
+        whileInView={{ translateY:'0%' , scale: 1 }}
+        transition={{ duration:0.5 , type:'spring'}}
+        className=' flex flex-col gap-4 bg-white py-6  px-9 rounded-lg shadow-lg'>
 
 
 
@@ -40,7 +44,7 @@ const PriceCard = ({data}) => {
 
 
 
-        </div>
+        </motion.div>
     )
 }
 

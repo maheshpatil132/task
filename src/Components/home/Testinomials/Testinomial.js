@@ -1,5 +1,6 @@
-import React , {useState} from 'react'
+import React  from 'react'
 import ReviewSlider from './ReviewSlider'
+import { motion } from 'framer-motion'
 
 
 
@@ -8,9 +9,13 @@ const Testinomial = () => {
   
 
     return (
-        <section className=' min-h-screen'>
+        <section id='Testimonial' className=' min-h-screen'>
 
-            <div className='mx-auto w-[300px] md:w-[350px] flex items-center flex-col justify-center my-20'>
+            <motion.div 
+            initial={{ translateY:'10%' , scale:0.8 }}
+            whileInView={{ translateY:'0%' , scale: 1 }}
+            transition={{ duration:0.2 , type:'spring'}}
+            className='mx-auto w-[300px] md:w-[350px] flex items-center flex-col justify-center my-20 lg:my-28'>
 
                 <div className=' mb-4 py-2 px-6 rounded-2xl w-fit mx-auto bg-slate-100'>
                     <h1 className=' font-semibold'>They already love our products 😍</h1>
@@ -23,7 +28,7 @@ const Testinomial = () => {
                         </h1>
                     </div>
                 </div>
-            </div>
+            </motion.div>
                
             <div className=' lg:w-full'>
             <ReviewSlider direction={"LR"} />

@@ -3,10 +3,6 @@ import React from 'react'
 import data from './footer.json'
 const Footer = () => {
 
-
- 
-   
-
   return (
     <section className=' lg:px-20 px-6 py-10 text-gray-500 font-medium bg-slate-100 flex-col lg:flex-row flex justify-between items-start gap-5'>
 
@@ -47,13 +43,13 @@ const Footer = () => {
       {
          data.map((elem , index)=>{
           return(
-            <div className=' w-fit lg:ml-12  flex flex-col'>
+            <div key={index} className=' w-fit lg:ml-12  flex flex-col'>
             <h1 className=' text-[#2D2D2D] mb-4 md:text-lg font-semibold'>{elem.title}</h1>
             <ul className=' font-normal flex flex-col gap-3'>
               {
                 elem.menus.map((e,i)=>{
                   return(
-                    <li className=' hover:text-black hover:underline text-base text-gray-500 font-medium'><a href={e.link}>{e.option}</a></li>
+                    <li key={i} className=' hover:text-black hover:underline text-base text-gray-500 font-medium'><a href={`#${e.link}`}>{e.option}</a></li>
                   )
                 })
               }

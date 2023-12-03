@@ -1,11 +1,17 @@
 import React from 'react'
 import { Avatar } from '@mui/material'
 import Avt from '../../assets/avt2.webp'
+import { motion } from 'framer-motion'
 
 const Call = () => {
+    
     return (
         <section className=' min-h-screen lg:w-3/5'>
-            <div className='mx-auto flex items-center flex-col justify-center my-20'>
+            <motion.div 
+            initial={{ scale: 0.7 , translateY:'2%' , opacity:0 }}
+            whileInView={{ scale: 1 ,translateY:'0%', opacity:1}}
+            transition={{ duration:0.3 }}
+            className='mx-auto flex items-center flex-col justify-center my-20'>
 
                 <div className=' mb-4 py-2 px-6 rounded-2xl w-fit mx-auto bg-slate-100'>
                     <h1 className=' font-semibold'>Last call Baby! 🚀</h1>
@@ -30,15 +36,19 @@ const Call = () => {
 
 
                 </div>
-            </div>
+            </motion.div>
 
-            <div className=' flex my-14 '>
+            <motion.div 
+            initial={{ translateY:'70%', opacity:0 }}
+            whileInView={{ translateY:'0',  opacity:1}}
+            transition={{ duration:0.3 }}
+            className=' flex my-14 '>
                         <div className=' pt-20 ' ><Avatar sx={{ width: 64, height: 64 }} src={Avt} /></div>
                         <div className=' bg-[#fee9cb] h-fit w-64 lg:w-96 rounded-xl p-3 '>
                             <h4 className=' text-base font-semibold text-[#2E2E2E]'>I never missed a call again, the AI-drivenfeature is a game changer for me!.</h4>
                             <p className=' my-2 text-gray-700 font-bold'>Adam, Solo founder </p>
                         </div>
-                    </div>
+                    </motion.div>
         </section>
     )
 }

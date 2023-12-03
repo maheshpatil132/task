@@ -4,19 +4,19 @@
         "menus": [
             {
                 "option":"Features",
-                "link": "/" 
+                "link": "Features" 
             },
             {
                 "option":"Testimonials",
-                "link": "/"
+                "link": "Testimonials"
             },
             {
                 "option":"Pricing",
-                "link": "/"
+                "link": "Pricing"
             },
             {
                 "option":"FAQs",
-                "link": "/"
+                "link": "FAQs"
             }
         ]
     },
