@@ -49,7 +49,8 @@ const Footer = () => {
               {
                 elem.menus.map((e,i)=>{
                   return(
-                    <li key={i} className=' hover:text-black hover:underline text-base text-gray-500 font-medium'><a href={`#${e.link}`}>{e.option}</a></li>
+                    <li key={i} className=' hover:text-black hover:underline text-base text-gray-500 font-medium'>
+                      <a className=' text-sm ' href={`#${e.link}`}>{e.option}</a></li>
                   )
                 })
               }
