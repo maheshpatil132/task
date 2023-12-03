@@ -45,14 +45,14 @@ const Pricing = () => {
     return (
         <section className=' min-h-screen my-12'>
 
-            <div className='mx-auto w-[400px] flex items-center flex-col justify-center my-20'>
+            <div className='mx-auto lg:w-[400px] flex items-center flex-col justify-center my-20'>
 
                 <div className=' mb-4 py-2 px-6 rounded-2xl w-fit mx-auto bg-slate-100'>
                     <h1 className=' font-semibold'>Pricing and plans 💰</h1>
                 </div>
 
                 <div className='flex flex-col gap-4 justify-center items-center'>
-                    <div className='lg:w-[700px]  text-[#2E2E2E] lg:text-[60px] text-2xl mb-4 text-center font-bold  leading-none'>
+                    <div className='lg:w-[700px]  text-[#2E2E2E] lg:text-[60px] text-4xl mb-4 text-center font-bold  leading-none'>
                         <h1 >
                             Find the best plan for your needs
                         </h1>
@@ -77,7 +77,7 @@ const Pricing = () => {
             </div>
 
 
-            <div className=' flex flex-col lg:flex-row gap-8'>
+            <div className=' grid grid-cols-1 lg:grid-cols-3 gap-8'>
                 {data.map((elem, index) => {
                     return (
                         <PriceCard data={elem} />

@@ -12,7 +12,7 @@ const Faq = () => {
 
                 <div className='flex flex-col gap-4 justify-center items-center'>
                     <div className=' text-[#2E2E2E] mb-4  text-center font-bold  leading-none '>
-                        <h1 className='text-6xl'>
+                        <h1 className='lg:text-6xl text-4xl'>
                             Frequently asked questions
                         </h1>
                     </div>
