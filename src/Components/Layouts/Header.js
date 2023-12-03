@@ -6,7 +6,6 @@ const Header = () => {
     const navmenu = ['Features', 'Testimonial', 'Pricing', 'FAQs', 'Blog']
     const [show, setShow] = useState(false)
    
-    console.log(show || window.screen.width > 1024);
 
     return (
         <header className='px-4 z-50 fixed left-0 bg-[#fef9f6] top-0 w-full flex  items-center py-5 lg:px-20 border-b'>
@@ -18,8 +17,8 @@ const Header = () => {
                     Milton
                 </h1>
             </div>
-{  show &&
-            <nav className={'left-0 px-4 py-12 bg-slate-50 lg:bg-transparent lg:p-0 gap-8 w-full lg:flex-row flex-col absolute lg:relative top-full flex justify-between items-center'}>
+
+            <nav className={` ${!show && 'hidden'} text-center left-0 px-4 py-12 bg-slate-50 lg:bg-transparent lg:p-0 gap-8 w-full lg:flex-row flex-col absolute lg:relative top-full lg:flex justify-between items-center`}>
                 <ul className=' mx-auto lg:flex-row gap-4 flex flex-col  '>
                     {
                         navmenu.map((elem, index) => {
@@ -31,12 +30,12 @@ const Header = () => {
                         })
                     }
                 </ul>
-                <div className=' flex flex-col lg:flex-row gap-4' >
-                    <button className=' hover:scale-110 transition-all px-4 py-2 bg-slate-100 text-gray-700 rounded-xl font-semibold'>Log in</button>
-                    <button className=' hover:scale-110 transition-all px-4 py-2 bg-black text-white rounded-xl font-semibold'>Get Started</button>
+                <div className=' flex justify-center items-center my-4 lg:my-0 flex-col lg:flex-row gap-4' >
+                    <button className=' w-fit hover:scale-110 transition-all px-4 py-2 bg-slate-100 text-gray-700 rounded-xl font-semibold'>Log in</button>
+                    <button className=' w-fit hover:scale-110 transition-all px-4 py-2 bg-black text-white rounded-xl font-semibold'>Get Started</button>
                 </div>
             </nav>
-            }
+            
 
             <div onClick={()=>{ setShow(!show) }} className=' ml-auto block lg:hidden'>
                { !show ? <Menu /> : < X /> } 
