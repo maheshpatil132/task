@@ -1,0 +1,95 @@
+[
+    {
+        "title": "Products",
+        "menus": [
+            {
+                "option":"Features",
+                "link": "/" 
+            },
+            {
+                "option":"Testimonials",
+                "link": "/"
+            },
+            {
+                "option":"Pricing",
+                "link": "/"
+            },
+            {
+                "option":"FAQs",
+                "link": "/"
+            }
+        ]
+    },
+
+    {
+        "title": "Resources",
+        "menus": [
+            {
+                "option":"Change log",
+                "link": "/" 
+            },
+            {
+                "option":"Help center",
+                "link": "/"
+            },
+            {
+                "option":"Blog",
+                "link": "/"
+            },
+            {
+                "option":"Contact",
+                "link": "/"
+            }
+        ]
+    },
+
+
+    {
+        "title": "Others",
+        "menus": [
+            {
+                "option":"Privacy",
+                "link": "/" 
+            },
+            {
+                "option":"Terms",
+                "link": "/"
+            },
+            {
+                "option":"Affiliation",
+                "link": "/"
+            },
+            {
+                "option":"Press",
+                "link": "/"
+            }
+        ]
+    },
+    {
+        "title": "From the blog",
+        "menus": [
+            {
+                "option":"Mastering Your Schedule: Top Time Management Techniques for Balancing Work and Life",
+                "link": "/" 
+            },
+            {
+                "option":"Organizing Your Calendar for Enhanced Productivity and Focus",
+                "link": "/"
+            },
+            {
+                "option":"The Power of Prioritization: Effective Strategies for Managing Your Time and Tasks",
+                "link": "/"
+            },
+            {
+                "option":"Maximizing Your Minutes: Essential Tips for Streamlining Your Daily Routine and Calendar",
+                "link": "/"
+            }
+        ]
+    }
+
+
+    
+
+
+  
+]
