@@ -48,7 +48,7 @@ const Footer = () => {
          data.map((elem , index)=>{
           return(
             <div className=' w-fit lg:ml-12  flex flex-col'>
-            <h1 className=' text-[#2D2D2D] mb-4 text-lg font-semibold'>{elem.title}</h1>
+            <h1 className=' text-[#2D2D2D] mb-4 md:text-lg font-semibold'>{elem.title}</h1>
             <ul className=' font-normal flex flex-col gap-3'>
               {
                 elem.menus.map((e,i)=>{

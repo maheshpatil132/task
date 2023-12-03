@@ -1,20 +1,12 @@
 import React, { useState } from 'react'
 import { Menu } from 'lucide-react'
-import { useEffect } from 'react'
 import { X } from 'lucide-react'
 
 const Header = () => {
     const navmenu = ['Features', 'Testimonial', 'Pricing', 'FAQs', 'Blog']
     const [show, setShow] = useState(false)
-
-
-    useEffect(()=>{
-        if(window.screen.width > 1024){
-            setShow(true)
-        }else{
-            setShow(false)
-        }
-    },[])
+   
+    console.log(show || window.screen.width > 1024);
 
     return (
         <header className='px-4 z-50 fixed left-0 bg-[#fef9f6] top-0 w-full flex  items-center py-5 lg:px-20 border-b'>
@@ -27,7 +19,7 @@ const Header = () => {
                 </h1>
             </div>
 {  show &&
-            <nav className='left-0 px-4 py-12 bg-slate-50 lg:bg-transparent lg:p-0 gap-8 w-full lg:flex-row flex-col absolute lg:relative top-full  flex justify-between items-center'>
+            <nav className={'left-0 px-4 py-12 bg-slate-50 lg:bg-transparent lg:p-0 gap-8 w-full lg:flex-row flex-col absolute lg:relative top-full flex justify-between items-center'}>
                 <ul className=' mx-auto lg:flex-row gap-4 flex flex-col  '>
                     {
                         navmenu.map((elem, index) => {
