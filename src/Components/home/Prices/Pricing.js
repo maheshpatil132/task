@@ -72,11 +72,11 @@ const Pricing = () => {
 
                     <div
                         onClick={() => { setOption(1); setData(data1) }}
-                        className={`cursor-pointer ${option === 1 && 'bg-white'} shadow-sm lg:px-12 px-6  rounded-lg py-1 md:text-lg `}>
+                        className={`cursor-pointer ${option === 1 && 'bg-white shadow-sm'}  lg:px-12 px-6  rounded-lg py-1 md:text-lg `}>
                         Monthly
                     </div>
 
-                    <div onClick={() => { setOption(2); setData(data2) }} className={`cursor-pointer ${option === 2 && 'bg-white'} shadow-sm lg:px-12 px-6 rounded-lg py-1 md:text-lg`}>Annualy</div>
+                    <div onClick={() => { setOption(2); setData(data2) }} className={`cursor-pointer ${option === 2 && 'bg-white shadow-sm'} lg:px-12 px-6 rounded-lg py-1 md:text-lg`}>Annualy</div>
                 </div>
                 <span className=' text-base font-bold'>✨ save 30%</span>
             </div>

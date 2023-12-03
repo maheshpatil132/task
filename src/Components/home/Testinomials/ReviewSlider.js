@@ -41,7 +41,7 @@ const ReviewSlider = ({ direction }) => {
                     <motion.div
                         initial={{ x: initialX }}
                         animate={controls}
-                        exit={{ x: -hoverX }}
+                        exit={{ x: initialX }}
                         onHoverStart={handleHoverStart}
                         onHoverEnd={handleHoverEnd}
                         className=' my-5 flex gap-5'>

@@ -3,6 +3,9 @@ import { Check } from 'lucide-react'
 import React from 'react'
 
 const PriceCard = ({data}) => {
+     
+    const background = data.color
+
     return (
         <motion.div 
         initial={{ translateY:'10%' , scale:0.8 }}
@@ -12,7 +15,7 @@ const PriceCard = ({data}) => {
 
 
 
-            <div className={`mb-4 py-2 px-6 rounded-full w-fit  bg-[${data.color}]`}>
+            <div className={`mb-4 py-2 px-6 rounded-full w-fit  bg-[${background}]`}>
                 <h1 className=' font-semibold'>{data.title}</h1>
             </div>
 
