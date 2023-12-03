@@ -21,7 +21,7 @@ const ReviewCard = () => {
             </div>
         </div>
 
-        <div>
+        <div className=' text-base'>
             <p className=' text-gray-500 '>
             This app has saved me so much time and stress! I used to constantly forget important dates, but now I can stay on top of everything. You should test it!
             </p>
