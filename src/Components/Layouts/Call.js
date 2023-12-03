@@ -13,11 +13,11 @@ const Call = () => {
 
                 <div className='flex flex-col gap-5 justify-center items-center'>
                     <div className=' text-[#2E2E2E] mb-4  text-center font-bold  leading-none '>
-                        <h1 className='text-6xl'>
+                        <h1 className='lg:text-6xl text-3xl'>
                             Ready to start?
                         </h1>
                     </div>
-                    <p className='text-center text-gray-500 text-xl'>Here is your last chance to explain how cool your app is. Focus on the benefits for your users, not on the features. </p>
+                    <p className='text-center text-gray-500 lg:text-xl'>Here is your last chance to explain how cool your app is. Focus on the benefits for your users, not on the features. </p>
 
                     <div>
                         <button className='bg-[#2E2E2E] hover:scale-110 transition-all text-lg font-semibold text-white px-6 py-3 rounded-lg'>
