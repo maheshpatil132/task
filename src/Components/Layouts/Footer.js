@@ -8,7 +8,7 @@ const Footer = () => {
    
 
   return (
-    <section className=' lg:px-20 py-10 text-gray-500 font-medium bg-slate-100 flex-col lg:flex-row flex justify-between items-start gap-5'>
+    <section className=' lg:px-20 px-6 py-10 text-gray-500 font-medium bg-slate-100 flex-col lg:flex-row flex justify-between items-start gap-5'>
 
 
       <div className='flex-col w-fit flex gap-5  '>
