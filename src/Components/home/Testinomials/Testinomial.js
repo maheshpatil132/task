@@ -17,15 +17,15 @@ const Testinomial = () => {
                 </div>
 
                 <div className='flex flex-col gap-4 justify-center items-center'>
-                    <div className='lg:w-[700px] text-[#2E2E2E] lg:text-[80px] text-6xl mb-4 lg:text-7xl text-center font-bold  leading-none '>
-                        <h1 className='text-6xl'>
+                    <div className='lg:w-[700px] text-[#2E2E2E] lg:text-[60px] text-3xl mb-4 text-center font-bold  leading-none '>
+                        <h1>
                             See what our users say about us
                         </h1>
                     </div>
                 </div>
             </div>
                
-            <div className='w-screen'>
+            <div className=' w-screen lg:w-full'>
             <ReviewSlider direction={"LR"} />
             <ReviewSlider direction={"RL"}/>
             <ReviewSlider direction={"LR"}/>

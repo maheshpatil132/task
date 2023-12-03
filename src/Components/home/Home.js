@@ -24,7 +24,7 @@ const Home = () => {
           </div>
 
           <div className='flex flex-col gap-4 justify-center items-center'>
-            <div className='lg:w-[700px] text-[#2E2E2E] lg:text-[80px] text-6xl mb-4 lg:text-7xl text-center font-bold  leading-none '>
+            <div className='lg:w-[700px] text-4xl text-[#2E2E2E] lg:text-[80px] md:text-6xl mb-4 lg:text-7xl text-center font-bold  leading-none '>
               <span className=''>
                 Your new favorite calendar
               </span> 🗓️
@@ -32,7 +32,7 @@ const Home = () => {
                 app
               </span>
             </div>
-            <p className=' lg:w-[700px] mx-auto text-gray-500 font-medium text-xl text-center mb-6'>
+            <p className=' lg:w-[700px] text-base mx-auto text-gray-500 font-medium lg:text-xl text-center mb-6'>
               Here you should explain how cool your app is. Remember, focus on the benefits for your users, not on the features.
             </p>
             <div>
@@ -46,9 +46,9 @@ const Home = () => {
         </div>
 
 
-        <div className=' my-10 flex   items-center gap-1'>
+        <div className=' my-10 flex flex-col md:flex-row items-center gap-1'>
 
-          <div className=' flex w-fit  '>
+          <div className=' flex w-fit mx-auto   '>
             <div className=' cursor-pointer bg-white p-1 border rounded-full  '><Avatar src={Avt} /></div>
             <div className='cursor-pointer bg-white relative -left-4  p-1 border rounded-full'><Avatar src={Avt} /></div>
             <div className='cursor-pointer bg-white relative -left-8 p-1 border rounded-full '><Avatar src={Avt} /></div>

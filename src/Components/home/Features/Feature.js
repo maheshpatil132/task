@@ -18,7 +18,7 @@ const Feature = () => {
 
                 <div className='flex flex-col gap-4 justify-center items-center'>
                     <div className=' text-[#2E2E2E] mb-4  text-center font-bold  leading-none '>
-                        <h1 className='text-6xl'>
+                        <h1 className='lg:text-6xl text-4xl'>
                             Discover your new superpowers
                         </h1>
                     </div>
@@ -31,8 +31,8 @@ const Feature = () => {
                     <div className=' mb-4 py-2 px-6 rounded-2xl w-fit bg-[#fee9cb]'>
                         <h1 className='  font-semibold'>Seamless Scheduling</h1>
                     </div>
-                    <h1 className='text-[#2E2E2E] mb-14 mt-8 text-5xl font-bold  leading-none '>Focus on what matters most for you</h1>
-                    <p className=' text-xl text-gray-500 font-medium'>Effortlessly plan your day with our intuitive drag-and-drop interface. Sync with multiple calendar platforms, import events from emails, and add participants with just a few clicks.</p>
+                    <h1 className='text-[#2E2E2E] mb-14 mt-8 text-3xl lg:text-5xl font-bold  leading-none '>Focus on what matters most for you</h1>
+                    <p className='  lg:text-xl text-gray-500 font-medium'>Effortlessly plan your day with our intuitive drag-and-drop interface. Sync with multiple calendar platforms, import events from emails, and add participants with just a few clicks.</p>
 
                     <div className=' flex my-14 '>
                         <div className=' pt-20 ' ><Avatar sx={{ width: 64, height: 64 }} src={Avt} /></div>
@@ -62,12 +62,12 @@ const Feature = () => {
                     <div className=' mb-4 py-2 px-6 rounded-2xl w-fit bg-[#cbeefe]'>
                         <h1 className='  font-semibold'>Smart Reminders & Task</h1>
                     </div>
-                    <h1 className='text-[#2E2E2E] mb-14 mt-8 text-5xl font-bold  leading-none '>Focus on what matters most for you</h1>
-                    <p className=' text-xl text-gray-500 font-medium'>Effortlessly plan your day with our intuitive drag-and-drop interface. Sync with multiple calendar platforms, import events from emails, and add participants with just a few clicks.</p>
+                    <h1 className='text-[#2E2E2E] mb-14 mt-8 text-3xl lg:text-5xl font-bold  leading-none '>Focus on what matters most for you</h1>
+                    <p className=' lg:text-xl text-gray-500 font-medium'>Effortlessly plan your day with our intuitive drag-and-drop interface. Sync with multiple calendar platforms, import events from emails, and add participants with just a few clicks.</p>
 
                     <div className=' flex my-14 ml-auto w-fit '>
                         <div className=' bg-[#2E2E2E] h-fit w-64 lg:w-96 rounded-xl p-3 '>
-                            <h4 className=' text-base font-semibold text-white'>I tested many calendar apps. This app is the best of all! It saves me hours of time.</h4>
+                            <h4 className=' font-semibold text-white'>I tested many calendar apps. This app is the best of all! It saves me hours of time.</h4>
                             <p className=' text-gray-400 font-bold'>Carla, Head of Finance </p>
                         </div>
                         <div className=' pt-20 ' ><Avatar sx={{ width: 64, height: 64 }} src={Avt} /></div>
@@ -84,8 +84,8 @@ const Feature = () => {
                     <div className=' mb-4 py-2 px-6 rounded-2xl w-fit bg-[#fee9cb]'>
                         <h1 className='  font-semibold'>Seamless Scheduling</h1>
                     </div>
-                    <h1 className='text-[#2E2E2E] mb-14 mt-8 text-5xl font-bold  leading-none '>Focus on what matters most for you</h1>
-                    <p className=' text-xl text-gray-500 font-medium'>Effortlessly plan your day with our intuitive drag-and-drop interface. Sync with multiple calendar platforms, import events from emails, and add participants with just a few clicks.</p>
+                    <h1 className='text-[#2E2E2E] mb-14 mt-8 text-3xl lg:text-5xl font-bold  leading-none '>Focus on what matters most for you</h1>
+                    <p className=' lg:text-xl text-gray-500 font-medium'>Effortlessly plan your day with our intuitive drag-and-drop interface. Sync with multiple calendar platforms, import events from emails, and add participants with just a few clicks.</p>
 
                     <div className=' flex my-14 '>
                         <div className=' pt-20 ' ><Avatar sx={{ width: 64, height: 64 }} src={Avt} /></div>

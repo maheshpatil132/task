@@ -7,12 +7,12 @@ const ExtraFeature = () => {
 
             <div className='mx-auto flex items-center flex-col justify-center my-20'>
 
-                <div className=' mb-4 py-2 px-6 rounded-2xl w-fit mx-auto bg-slate-100'>
+                <div className=' mb-4 py-2 px-6 rounded-2xl  bg-slate-100'>
                     <h1 className=' font-semibold'>And so much more... 💼</h1>
                 </div>
 
                 <div className='flex flex-col gap-4 justify-center items-center'>
-                    <div className='lg:w-[700px] text-[#2E2E2E] lg:text-[80px] text-6xl mb-4 lg:text-7xl text-center font-bold  leading-none'>
+                    <div className='lg:w-[800px] text-[#2E2E2E] text-3xl lg:text-[50px] mb-4 text-center font-bold  leading-none'>
                         <h1>
                             Our features to make your life easier
                         </h1>
